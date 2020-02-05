@@ -44,6 +44,7 @@ public class SumOfInputTest
         SumOfInput testSum = new SumOfInput();
         
         assertEquals(Integer.valueOf(4465), testSum.oneToNumber(94));
+        
         assertEquals(Integer.valueOf(171), testSum.oneToNumber(18));
     }
     
